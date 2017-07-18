@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BinarySearch.playground">
+   </FileRef>
+   <FileRef
       location = "group:Insertion Sort.playground">
    </FileRef>
    <FileRef
