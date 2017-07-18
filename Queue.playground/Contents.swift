@@ -5,19 +5,19 @@ protocol Queuable {
     // Generic Type.
     associatedtype T
     
-    // Indicates whether the Queue is empty or not.
+    /// Indicates whether the Queue is empty or not.
     var isEmpty: Bool { get }
     
-    // Returns the number of items in the queue.
+    /// Returns the number of items in the queue.
     var count: Int { get }
     
-    // Returns the item in the front of Queue.
+    /// Returns the item in the front of Queue.
     var front: T? { get }
     
-    // Adds a new items to the Queue.
+    /// Adds a new items to the Queue.
     mutating func enqueue(_ element: T)
     
-    // Removes next item in the Queue.
+    /// Removes next item in the Queue.
     mutating func dequeue() -> T?
     
 }
