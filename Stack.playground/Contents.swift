@@ -1,19 +1,22 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
 
 /// Protocol to conform to when creating a stack.
 protocol Stackable {
     // Generic Type.
     associatedtype T
+    
     // Returns the number of items in the stack.
     var count: Int { get }
+    
     // Returns with the stack is empty.
     var isEmpty: Bool { get }
+    
     // Returns the top-most items.
     var top: T? { get }
+    
     // Pushes a new item onto the stack.
     mutating func push(_ element: T)
+    
     // Pops the top-most element on the stack, returns said element.
     mutating func pop() -> T?
 }
