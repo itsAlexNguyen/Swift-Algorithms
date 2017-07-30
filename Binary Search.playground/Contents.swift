@@ -1,5 +1,3 @@
-import UIKit
-
 /// Protocol to conform to when creating an object that performs Binary Search.
 protocol BinarySearchable {
     /// Generic Type.

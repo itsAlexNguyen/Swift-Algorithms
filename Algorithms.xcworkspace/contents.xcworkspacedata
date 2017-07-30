@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BinarySearch.playground">
+      location = "group:Binary Search Tree.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/alexnguyen/Documents/workspace/Algorithms/Binary Search.playground">
    </FileRef>
    <FileRef
       location = "group:Insertion Sort.playground">

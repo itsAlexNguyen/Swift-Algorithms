@@ -1,5 +1,3 @@
-import UIKit
-
 /// Protocol to conform to when creating a Queue
 protocol Queuable {
     // Generic Type.

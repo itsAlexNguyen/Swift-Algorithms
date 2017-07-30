@@ -1,5 +1,3 @@
-import UIKit
-
 /// Protocol to conform to when creating a stack.
 protocol Stackable {
     /// Generic Type.

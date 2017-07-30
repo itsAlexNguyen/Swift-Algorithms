@@ -1,5 +1,3 @@
-import UIKit
-
 /// Protocol to conform to when creating an object that performs insertion sort.
 protocol InsertionSortable {
     /// Generic Type.
