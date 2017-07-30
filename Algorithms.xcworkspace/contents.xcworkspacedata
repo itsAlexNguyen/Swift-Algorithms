@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Merge Sort.playground">
+   </FileRef>
+   <FileRef
       location = "group:Binary Search Tree.playground">
    </FileRef>
    <FileRef
